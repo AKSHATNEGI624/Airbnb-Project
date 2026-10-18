@@ -1,0 +1,148 @@
+body {
+   font-family: "Plus Jakarta Sans", sans-serif !important;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+.container {
+    flex:1;
+}
+
+/*navbar*/
+.navbar {
+    min-height:5rem;
+    background-color:white ;
+}
+.fa-compass {
+     color:#fe424d;
+     font-size: 2rem;
+}
+.nav-link {
+    color:#222222 !important ;  /*for override coustom styling rather than bootstrap*/
+}
+/*footer*/
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+.f-info-links, .f-info-socials, .f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.f-info-socials i {
+    margin-right: 1rem;
+     font-size: 1.2rem; 
+}
+.f-info {
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+/* new page vla */
+.add-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+/* edit page */
+.edit-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+/*cards*/
+.listing-card {
+border:none !important;
+margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+
+
+}
+.card-body {
+    padding: 0 !important;
+}
+.card-text p{
+font-weight:400 !important;
+}
+.listing-link {
+text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay {
+    opacity: 0;
+}
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+    
+}
+
+/* show page vala */
+.show-img {
+    height: 30vh;
+}
+.btns {
+    display: flex;
+
+}
+.btn-del {
+  background-color: #fe424d !important;
+  border: none !important;
+  color: #fff !important;
+}
+.btn-del:hover,
+.edit-btn:hover {
+  background-color: #d93640 !important;
+}
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* is below for size of original image on edit form*/
+.edit-img {
+
+    width: 180px;
+
+    height: 110px;
+
+    object-fit: cover;
+
+
+}
+/*Map*/
+#map {
+ height:400px;
+ width: 100%;    
+
+}
+
+
+/*review me edir for hover*/
+.btn-outline-dark,
+.btn-sm.btn-dark {
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn-outline-dark:hover,
+.btn-sm.btn-dark:hover {
+  background-color: #d93640 !important;
+  border-color: #d93640 !important;
+  color: #fff !important;
+  cursor: pointer;
+}
+
